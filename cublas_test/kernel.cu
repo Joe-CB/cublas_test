@@ -16,9 +16,9 @@ cuComplex multy(cuComplex&a, cuComplex&b)
 
 int main()
 {
-	const int m = 50;
-	const int n = 128;
-	const int k = 1024;
+	const int m = 1000;
+	const int n = 1600;
+	const int k = 1000;
 	cuComplex *dm_A, *dm_B, *d_C;
 	std::vector<cuComplex> C(m*n);
 	std::vector<cuComplex> h_c(m*n);
